@@ -12,7 +12,7 @@ RUN apt-get -y update
 RUN pip3 install -r requirements.txt
 
 #Expose the required port
-EXPOSE 5001
+EXPOSE 6000
 
 #Run the command
 CMD [“python3”, “./app.py”]
