@@ -13,3 +13,7 @@
 #    return “Welcome to TutorialsPoint”
 #           ^
 # SyntaxError: invalid character '“' (U+201C)
+
+
+## https://medium.com/swlh/build-your-first-automated-test-integration-with-pytest-jenkins-and-docker-ec738ec43955
+- pytest usage
