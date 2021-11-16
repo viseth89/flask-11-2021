@@ -17,3 +17,10 @@
 
 ## https://medium.com/swlh/build-your-first-automated-test-integration-with-pytest-jenkins-and-docker-ec738ec43955
 - pytest usage
+- Multiple Jenkins/Docker
+- Important commands
+- docker build -t jenkins-docker-image -f JenkinsDockerfile .
+- docker run -d -p 8080:8080 --name jenkins-docker-container -v /var/run/docker.sock:/var/run/docker.sock jenkins-docker
+- Verify Jenkins Docker Container is running with [ docker ps -a ]
+- Grab jenkins pw -> docker exec -it jenkins-docker-container cat var/jenkins_home/secrets/initialAdminPassword
+- https://github.com/viseth89/python-test-calculator
